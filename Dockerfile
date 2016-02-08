@@ -76,7 +76,7 @@ RUN \
   && wget \
     --output-document - \
     --quiet \
-    https://raw.github.com/pypa/pip/master/contrib/get-pip.py \
+    https://bootstrap.pypa.io/get-pip.py \
     | python \
   && pip install \
     babelfish \
